@@ -1,0 +1,4 @@
+%definesc vectorul
+a=rand(1,5)
+%afisez indicii valorilor negative din vectorul a
+  u=find(a<0)

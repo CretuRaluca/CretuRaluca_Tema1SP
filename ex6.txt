@@ -1,0 +1,5 @@
+Fs=12000
+N = 0.5*1
+s=
+plot(n,s),grid 
+stem(n,s), grid

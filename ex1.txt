@@ -1,0 +1,14 @@
+%declar vectorul a
+a=0:0.1:2
+ size(a)
+ %b trebuie sa aiba numarul de coloane egal cu numarul de linii ale lui a 
+ %declar vectorul b
+ b=ones(21,1)
+ size(b)
+ %inmultirea dintre a si b este un numar
+  a*b
+  %inmultirea b*a este o matrice
+   b*a
+    %inmultirea element cu element
+  
+    

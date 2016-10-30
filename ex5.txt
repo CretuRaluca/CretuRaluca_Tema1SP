@@ -1,0 +1,13 @@
+%semnalul sinusoidal initial
+F = 50; t = 0:0.001:0.2; s = 2*sin(2*pi*F*t); plot(t,s,'.-'),xlabel('Timp [s]'),grid 
+% semanul sinusoidal pentru 0.01; observam ca semnalul nu mai are forma de
+% sinusoida
+F = 50; t = 0:0.01:0.2; s = 2*sin(2*pi*F*t); plot(t,s,'.-'),xlabel('Timp [s]'),grid 
+%semnalul sinuoidal pentru 0.002
+F = 50; t = 0:0.0002:0.2; s = 2*sin(2*pi*F*t); plot(t,s,'.-'),xlabel('Timp [s]'),grid 
+%semanlul cosinusoidal
+F = 20; t = 0:0.001:0.2; s = 2*cos(2*pi*F*t); plot(t,s,'.-'),xlabel('Timp [s]'),grid
+%semanlele cos si sin reprezentate pe acelasi grafic
+F = 50; t1 = 0:0.001:0.2; s1 = 2*sin(2*pi*F*t1); xlabel('Timp [s]'),grid
+F = 20; t = 0:0.001:0.2; s = 2*cos(2*pi*F*t); xlabel('Timp [s]'),grid
+plot(t,s,t1,s1)

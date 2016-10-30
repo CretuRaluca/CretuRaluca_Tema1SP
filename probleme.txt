@@ -1,0 +1,26 @@
+%problema 4
+%semnal sinusoidal redresat mono alternanta
+T=3
+f =1/T      
+A=0.8
+n=-10:10
+s = A*sin(2*pi*f*n);
+plot(n,s)
+title('Graficul functiei sinus')
+xlabel('n')
+ylabel('sin') 
+grid 
+
+%problema 5
+%semnal sinusoidal dubla alternanta 
+T=4
+f =1/T      
+A=1.5
+N = 10*4
+n=0:N-1
+s = A*sin(2*pi*f*n);
+plot(n,s)
+title('Graficul functiei sinus')
+xlabel('n')
+ylabel('sin') 
+grid 

@@ -1,0 +1,41 @@
+%a 
+z=[0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0]
+ n=0:20
+ stem(z,n)
+  z=[0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0]
+   m=-5:15
+   subplot(2,2,1)
+   stem(z,m)
+  
+   %b
+   n=0:20
+   t=abs(10-n)
+   stem(t,n)
+   
+   %c
+   %ambele grafice in acelasi sistem de coordonate (plot)
+    n=-15:25
+     x1=sin((pi*n)/17)
+      x2=cos((pi*n)/sqrt(23))
+     plot(n,x1,n,x2)
+     
+     %graficele in doua miniferestre (plot)
+       x1=sin((pi*n)/17)
+      x2=cos((pi*n)/sqrt(23))
+     plot(n,x1)
+     subplot(2,2,3)
+     plot(n,x2)
+     
+     %ambele grafice in acelasi sistem de coordonate (stem)
+      n=-15:25
+     x1=sin((pi*n)/17)
+      x2=cos((pi*n)/sqrt(23))
+     stem(n,x1,n,x2)
+     
+      %graficele in doua miniferestre (stem)
+       x1=sin((pi*n)/17)
+      x2=cos((pi*n)/sqrt(23))
+     stem(n,x1)
+     subplot(2,2,3)
+     stem(n,x2)
+      

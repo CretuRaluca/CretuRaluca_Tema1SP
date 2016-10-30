@@ -1,0 +1,8 @@
+v=[-i 1 2+i 3 10-i]
+    mean(real(v))
+    for i=1:i+1:i<=5
+        for j=1:j+1:j<=5
+            w(j)=v(i)*v(i)
+            a(i,j)=v(i)*(.'v(i))
+            
+            
